@@ -21,6 +21,9 @@ prometheus metrics example
 <br/>
 
 Prometheus 클라이언트 라이브러리는 4가지 핵심 메트릭 유형을 제공합니다.  
+Counter 는 증가만 하거나 리셋만 할 수 있는 지표, Gauge 는 증가/감소하는 지표,  
+Histogram 과 Summary 는 시간에 따라 변화하는 통계 지표입니다.  
+
 Prometheus 서버는 아직 유형 정보를 사용하지 않으며 모든 데이터를 유형이 지정되지 않은 시계열로 병합합니다.  
 (이는 향후 변경될 수 있습니다.)
 
