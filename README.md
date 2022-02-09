@@ -15,7 +15,11 @@ prometheus metrics example
 
 <br/><br/><br/>
 
-## [Metric types | Prometheus](https://godekdls.github.aio/Prometheus/metric-types/)  
+## [Prometheus Metric types](https://godekdls.github.aio/Prometheus/metric-types/)  
+![](https://cdn.buttercms.com/DGw78T17SOCRhR0W4E42)  
+
+<br/>
+
 Prometheus 클라이언트 라이브러리는 4가지 핵심 메트릭 유형을 제공합니다.  
 Prometheus 서버는 아직 유형 정보를 사용하지 않으며 모든 데이터를 유형이 지정되지 않은 시계열로 병합합니다.  
 (이는 향후 변경될 수 있습니다.)
